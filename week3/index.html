@@ -1,8 +1,129 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>James David Website</title>
-    </head>
-    <body>
-        <p>Hi everyone!!!</p>
-    </body>
+<head>
+  <title>Your Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c0c0c0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      border-radius: 50%;
+      max-width: 30%;
+      height: auto;
+      box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .profile{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      background-color: #f8f8f8;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 20%;
+      margin: 10px;
+    }
+    
+    .basicInfo{
+      text-align: left;
+      margin-left: 40px;
+    }
+
+    .school{
+      margin-left: 0px;
+      padding-left: 0px;
+      padding: 0px;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+  </header>
+
+  <section>
+
+    <div class="profile">
+      <img src="ProfilePic.png" alt="Profile Picture">
+      <div class="basicInfo">
+        <h4>James Albert B. David</h4>
+        <h5>BSIT - MI222</h5>
+        <ul>
+          <ol class="school">
+            <h6>
+              Bachelor of Science in Information Technology with specialization in Mobile and Internet Technology<br><br>
+              Graduated Senior High School in Rizal Technological Univercity at Boni in Mandaluyong
+            </h6>
+          </ol>
+        </ul>
+      </div>
+      
+    </div>
+
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo at urna bibendum, at tincidunt leo blandit. Nullam sed metus nec purus euismod tristique. In hac habitasse platea dictumst.</p>
+
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      <li>Website: <a href="http://www.yourwebsite.com" target="_blank">www.yourwebsite.com</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+    </ul>
+  </section>
+
+</body>
 </html>
