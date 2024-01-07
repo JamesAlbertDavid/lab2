@@ -18,7 +18,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 30px;
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 2%;
@@ -58,17 +58,18 @@ nav ul li:hover{
 h1{
     color: rgb(70, 70, 70);
     margin: 20px 0px 20px;
-    font-size: 75px;
+    font-size: 65px;
 }
 h3{
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 50px;
 }
 h4{
     color: #fcfcfc;
     letter-spacing: 2px;
     font-size: 30px;
+    padding-top: 60px;
 }
 
 /* About Section Starts here*/
@@ -116,7 +117,7 @@ h4{
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 28px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 /*  Favorite section  */
@@ -124,7 +125,7 @@ h4{
 .Favorite{
     background-color: #353535;
     width: 100%;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 .title h2{
     color: white;
@@ -141,11 +142,12 @@ h4{
 }
 .card{
     height: 600px;
-    width: 435px;
+    width: 400px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
-    margin: 15px;
+    margin: 10px;
+    margin-bottom: 0px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -185,6 +187,9 @@ h5{
     border: 2px solid;
     cursor: pointer;
 }
+
+/* footer */
+
 
 .footer{
     color: white;
