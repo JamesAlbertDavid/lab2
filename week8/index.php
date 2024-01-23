@@ -27,7 +27,7 @@
     <!--About Section Start-->
     <section class="about">
         <div class="main">
-            <img src="about.jpg">
+            <img src="images\about.jpg">
             <div class="about-text">
                 <h2>About me</h2>
                 <h5>Dream & <span>Inspiration</span></h5>
@@ -44,7 +44,7 @@
 
         <div class="box">
             <div class="card">
-                <img src="card1.jpg">
+                <img src="images\card1.jpg">
                 <h5>Long Rides</h5>
                 <div class="first">
                     <p>Riding a <span>bike & motorbike</span> provides a sense of freedom and an opportunity to disconnect from daily stressors. It also strengthens the muscles, increases stamina, and contributes to weight management.</p>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="card">
-                <img src="card2.jpg">
+                <img src="images\card2.jpg">
                 <h5>Manga & Anime</h5>
                 <div class="first">
                     <p><span>Manga and Anim</span> often explore intricate and imaginative storylines, filled with compelling characters, intricate plots, and unexpected twists. </p>
@@ -62,7 +62,7 @@
             </div>
 
             <div class="card">
-                <img src="card3.jpg">
+                <img src="images\card3.jpg">
                 <h5>Dogs</h5>
                 <div class="first">
                     <p>Meet my lovely dog named <span>Thor</span> is the most adorable and lazy companion I have ever encountered. He has a charming laziness about him that never fails to bring a smile to my face.</p>
