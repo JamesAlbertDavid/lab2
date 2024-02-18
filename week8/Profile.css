@@ -208,3 +208,27 @@ li a{
     color: rgb(1, 183, 255);
     text-decoration: none;
 }
+
+.form {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    text-align: center;
+  }
+  
+  .message {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(70, 70, 70);
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .message:hover {
+    background-color: #2980b9;
+  }
+  
+  
